@@ -1,0 +1,47 @@
+.contact-container {
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px 0 80px 0;
+    background-color: rgba(154, 231, 191, 0.3);
+    border-radius: 20px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-top: 50px;
+}
+
+.contact-email {
+    height: 50px;
+    width: 300px;
+    border: none;
+    background-color: #40196D;
+    padding: 0 0 0 20px;
+    vertical-align: middle;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-email:focus {
+    border: none;
+}
+
+.arrow-button {
+    background-color: #40196D;
+    height: 50px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.contact-arrow {
+    height: 20px;
+
+}

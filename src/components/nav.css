@@ -1,0 +1,42 @@
+.overall-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px 0 40px;
+    align-items: center;
+    color: #40196D;
+}
+
+.logo{
+    font-size: large;
+    letter-spacing: 8px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    padding-top: 0;
+    font-size: small;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #40196D;
+    color: #fff;
+    font-size: smaller;
+}
+
+.country-logo img {
+    width: 25px;
+    height: 25px;
+}

@@ -1,0 +1,23 @@
+.categories-container {
+    margin: 100px 0 0 0;
+}
+
+.categories-menu-section {
+    display: flex;
+    justify-content: center;
+}
+.categories-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-left: 0;
+}
+
+.shop-button-section {
+    display: flex;
+    justify-content: center;
+}
+
+.shop-button {
+    width: 220px;
+}

@@ -1,0 +1,37 @@
+.collections-area {
+    margin-top: 150px;
+}
+
+.collections-area h2, p{
+    text-align: center;
+}
+
+.collections-area h2 {
+    color: #40196D;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+.each-collection img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container-each-collection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 50px 0 80px 0;
+}
+
+.explore-button-section {
+    display: flex;
+    justify-content: center;
+}
+
+.explore {
+    width: 220px;
+   
+}
