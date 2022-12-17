@@ -12,10 +12,27 @@
     margin-bottom: 0;
 }
 
+.collections-subtext {
+    font-weight: 600;
+    color: #6D6D6D;
+}
+
 .each-collection img{
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: max-content;
     border-radius: 10px;
+}
+
+.each-collection-text {
+    text-align: center;
+}
+
+.each-collection-text p {
+    color: #6D6D6D;
+}
+
+.each-collection-text h3 {
+    color: #40196D;
 }
 
 .container-each-collection{

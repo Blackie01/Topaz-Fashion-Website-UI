@@ -44,3 +44,14 @@ h2 {
 .reviewer-name {
     font-weight: bold;
 }
+
+.read-more-arrow {
+    background-color: #40196D;
+    height: 15px;
+    width: 15px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: -80px;
+    justify-content: center;
+    margin-top: 90px;
+}

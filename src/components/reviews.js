@@ -1,5 +1,7 @@
 import React from "react";
 import "./reviews.css"
+import arrow from '../assets/Vector.png';
+
 
 function Reviews() {
   const userReviews = [
@@ -37,6 +39,8 @@ function Reviews() {
                 <p className="individual-comment">{comments.comment}</p>
             </div>
         ))}
+                <img className="read-more-arrow" src={arrow} />
+
       </section>
     </section>
   );

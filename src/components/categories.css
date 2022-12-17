@@ -9,8 +9,36 @@
 .categories-menu {
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 250px;
     padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6D6D6D;
+}
+
+.each-category img{
+    width: 280px;
+    height: max-content;
+    border-radius: 10px;
+}
+
+.each-category-text {
+    color: #3E3E3E;
+    text-align: center;
+}
+
+.each-category-text p {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.each-category-text h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.little-detail {
+    color: #6D6D6D;
 }
 
 .shop-button-section {

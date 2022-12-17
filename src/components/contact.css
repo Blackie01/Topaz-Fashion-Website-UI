@@ -4,6 +4,7 @@
     padding: 50px 0 80px 0;
     background-color: rgba(154, 231, 191, 0.3);
     border-radius: 20px;
+    color: #40196D;
 }
 
 .contact-section {
@@ -44,4 +45,8 @@
 .contact-arrow {
     height: 20px;
 
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.8);
 }
