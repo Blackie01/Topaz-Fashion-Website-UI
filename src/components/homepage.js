@@ -14,7 +14,7 @@ function Homepage(){
                   </p>
 
                   <div className='button-section'>
-                    <button>SHOP ADIRE</button>
+                    <button className='shop-adire-button'>SHOP ADIRE</button>
                     <button className='white-button'>CUSTOMIZE ORDER</button>
                   </div>
             </section>

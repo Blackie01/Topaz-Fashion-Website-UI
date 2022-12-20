@@ -21,7 +21,7 @@ function Navbar () {
         </div>
 
         <div className='nav-buttons'>
-            <button>SHOP NOW</button>
+            <button className='nav-button-1'>SHOP NOW</button>
             <div className='country-logo'>
                 <img src={Nigeria}/>
             </div>

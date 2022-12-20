@@ -50,5 +50,18 @@
 
 .explore {
     width: 220px;
-   
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #40196D;
+    color: #fff;
+}
+
+ 
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+    .collections-area {
+        margin-top: 300px
+    }
 }

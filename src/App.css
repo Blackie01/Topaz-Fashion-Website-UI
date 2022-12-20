@@ -1,4 +1,6 @@
 .app {
     /* font-family: 'Public Sans';
     font-style: normal; */
+    width: 100%;
+    overflow-y: hidden;
 }

@@ -27,7 +27,7 @@ ul{
     gap: 20px;
 }
 
-button{
+.nav-button-1{
     width: 100px;
     height: 40px;
     border: none;
@@ -40,4 +40,26 @@ button{
 .country-logo img {
     width: 25px;
     height: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .overall-nav{
+        display: flex;
+        padding: 10px 10px 0 10px;
+        color: #40196D;
+    }
+
+    ul, .nav-button-1 {
+        display: none;
+    }
+
+
+
+    .logo{
+        font-size: smaller;
+        letter-spacing: 8px;
+        font-family: 'Playfair Display SC';
+    }
 }
