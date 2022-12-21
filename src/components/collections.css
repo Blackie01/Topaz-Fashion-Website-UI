@@ -69,12 +69,15 @@
         gap: unset;
         /* justify-content: space-around; */
         gap: 10px;
-        margin: 50px 10px 50px 10px;
-
+        margin: 50px 0px 50px 10px;
+        flex-wrap: unset;
+        width: 600px;
+        /* overflow-x: unset; */
+        overflow-x: scroll;
     }
 
     .container-each-collection :nth-last-child(4) {
-        display: none;
+        /* display: none; */
     }
 
     .collections-area h2 {
@@ -86,7 +89,7 @@
     }
 
     .each-collection {
-        width: 25%;
+        width: 350px;
     }
 
     .each-collection img{
