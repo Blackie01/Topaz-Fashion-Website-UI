@@ -64,4 +64,42 @@
     .collections-area {
         margin-top: 300px
     }
+
+    .container-each-collection{
+        gap: unset;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+
+    .container-each-collection :nth-last-child(4) {
+        display: none;
+    }
+
+    .collections-area h2 {
+        font-size: 20px;
+    }
+
+    .collections-area p {
+        font-size: smaller;
+    }
+
+    .each-collection {
+        width: 30%;
+    }
+
+    .each-collection img{
+        width: 100%;
+    }
+
+    .each-collection h3 {
+        font-size: small;
+    }
+
+    .each-collection p {
+        font-size: 10px;
+    }
+
+    .explore {
+        width: 250px;
+    }
 }
