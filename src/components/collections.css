@@ -67,8 +67,10 @@
 
     .container-each-collection{
         gap: unset;
-        justify-content: space-around;
-        margin-bottom: 50px;
+        /* justify-content: space-around; */
+        gap: 10px;
+        margin: 50px 10px 50px 10px;
+
     }
 
     .container-each-collection :nth-last-child(4) {
@@ -84,7 +86,7 @@
     }
 
     .each-collection {
-        width: 30%;
+        width: 25%;
     }
 
     .each-collection img{
