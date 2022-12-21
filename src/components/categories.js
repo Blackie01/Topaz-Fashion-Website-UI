@@ -36,7 +36,7 @@ function Categories() {
                 
             </section> */}
 
-      <section className="container-each-collection">
+      <section className="container-each-category">
         {/* {collectionImage.map((collectionImg, i) => (
           <div className="each-collection">
             <img key={i} src={collectionImg.urls.regular} />
