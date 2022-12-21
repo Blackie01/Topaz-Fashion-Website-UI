@@ -53,3 +53,26 @@
 ::placeholder {
     color: rgba(255, 255, 255, 0.8);
 }
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+
+    .contact-container {
+        text-align: center;
+    }
+
+    .contact-container h2 {
+        font-size: 20px;
+    }
+
+    .contact-container p {
+        font-size: small;
+        padding: 0 10%;
+    }
+
+    .contact-email {
+        width: 250px;
+    }
+}

@@ -78,4 +78,8 @@
     justify-content: flex-start;
   }
 
+  .container-each-category::-webkit-scrollbar {
+    display: none;
+  }
+
 }

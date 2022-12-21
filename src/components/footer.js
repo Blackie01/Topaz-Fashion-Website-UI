@@ -15,7 +15,7 @@ function Footer () {
                         TOPAZ
                     </div>
                     <p>
-                    Connecting you to Art and Culture <br />with a modern outlook and style.
+                    Connecting you to Art and Culture <br className='logo-br' />with a modern outlook and style.
                     </p>
                 </section>
 
@@ -25,11 +25,12 @@ function Footer () {
                     <img src={Facebook}/>
                     <img src={LinkedIn}/>
                 </section>
-                <section>
+                <section className='credits'>
                     <p>2022 Topaz Artistry Inc . All Rights Reserved.</p>
                 </section>
             </section>
 
+            <section className='aside-footer'>
             <section className='footer-col-2'>
                 <ul className='footer-ul'>
                     <li className='ul-header'>Company</li>
@@ -62,6 +63,8 @@ function Footer () {
                     <li>Gift Cards</li>
                 </ul>
             </section>
+            </section>
+           
         </section>
     )
 }

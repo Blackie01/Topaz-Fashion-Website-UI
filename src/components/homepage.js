@@ -1,11 +1,14 @@
 import React from 'react';
 import './homepage.css';
 import homely from '../assets/homely.svg';
+import spiral from '../assets/spiral.svg';
+
 
 function Homepage(){
     return(
         <section className='main-container'>
             <section className='main-text-area'>
+                {/* <img className='spiral' src={spiral}/> */}
                 <h1>When art meets <br/> beauty, exploration blooms.</h1>
                 <p>
                 When culture combines with elegant <br/>
