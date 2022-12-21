@@ -39,9 +39,12 @@
     align-items: center;
     justify-content: center;
     padding: auto;
+    border-radius: 10px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    border: none;
 }
+
 .contact-arrow {
     height: 20px;
 

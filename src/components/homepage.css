@@ -83,17 +83,17 @@ h1{
     }
 
     .jumbo-image{
-        height: 250px;
-        width: 300px;
+        height: 350px;
+        width: 400px;
 
     }
 
     .jumbo-image-container{
-        margin-top: -420px;
+        margin-top: -500px;
     }
 
     .button-section{
-        margin-top: 350px;
+        margin-top: 450px;
         flex-direction: column;
         gap: 10px;
         align-items: center;
